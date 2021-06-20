@@ -1,0 +1,221 @@
+h2,
+p {
+  text-align: center;
+}
+
+p {
+  color: gray;
+}
+
+br {
+  display: block;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.just-clocks-span, .thoridal-span, .inventory-span, .frostbolt-span {
+  position: relative;
+  margin-top: 1em;
+  margin-right: 4.3em;
+  float: right;
+}
+
+.thoridal-span {
+  margin-right: 5.1em;
+}
+
+.inventory-span {
+  margin-top: -2.5em;
+  margin-left: 15em;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.frostbolt-span {
+  margin-left: 4.3em;
+  margin-top: -3em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+.replica-span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0;
+  width: 50%;
+  margin-left: 0em;
+  margin-top: 0.1em;
+  text-align: center;
+}
+
+#just-clocks-icon, #thoridal-icon, #inventory-icon, #frost-icon, #replica-icon {
+  padding-left: 1.6em;
+  padding-top: 1em;
+  float: left;
+}
+
+#inventory-icon {
+  margin-left: -0.4em;
+}
+
+#just-clocks-arrow, #thoridal-arrow, #inventory-arrow, #frost-arrow, #replica-arrow {
+  position: relative;
+  margin-top: -1.75em;
+  margin-right: 1.5em;
+  float: right;
+}
+
+#inventory-arrow {
+  margin-top: -2.9em;
+}
+
+#frost-arrow {
+  margin-top: -2.2em;
+}
+
+#replica-arrow {
+  margin-top: 1.1em;
+}
+
+svg.material-icons {
+  height: 24px;
+  width: auto;
+}
+
+svg.material-icons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.card svg.material-icons path {
+  fill: #888;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.card {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 215px;
+  width: 200px;
+  margin: 0 8px 16px;
+  padding: 16px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card-container .card:not(:last-child) {
+  margin-right: 0;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(63, 63, 63);
+}
+
+.card.highlight-card {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: auto;
+  min-width: 30%;
+  position: relative;
+}
+
+.card.card.highlight-card span {
+  margin-left: 60px;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #125699;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .card-container > *:not(.circle-link) {
+    width: 100%;
+  }
+
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+  .desc {
+    color: transparent;
+    display: none;
+  }
+
+  #just-clocks-arrow {
+    position: relative;
+    float: right;
+    margin-top: -0.3%;
+  }
+
+  .just-clocks-span {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: -0.35%;
+  }
+
+  #just-clocks-icon {
+    position: relative;
+    float: left;
+    padding-left: 1.6em;
+    margin-top: -1.2em;
+  }
+}
+
+.desc {
+  height: 7em;
+  width: 14em;
+  padding-top: 1em;
+  text-align: center;
+  justify-content: center;
+}
+
+#frost-desc {
+  position: relative;
+  margin-top: -3px;
+}
+
+#replica-desc {
+  position: relative;
+  margin-top: -10px;
+}

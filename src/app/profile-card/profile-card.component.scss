@@ -1,0 +1,49 @@
+.headline-root {
+  margin-right: 20em;
+  width: 50%;
+}
+
+.profile {
+  margin-left: -10em;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 40px;
+  width: 90%;
+  margin: 3em 8px 3em 12.2em;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+}
+
+.card.highlight-card {
+  background-color: #6f92b3;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 110%;
+  min-width: 30%;
+  position: relative;
+}
+
+.card.card.highlight-card span {
+  margin-left: 27px;
+  margin-right: -50px;
+  font-size: x-large;
+}
