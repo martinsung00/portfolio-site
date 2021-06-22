@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "node": "ng build && copy app.js dist/app.js && node dist/app.js"
   },
   "private": true,
   "dependencies": {
@@ -18,8 +19,19 @@
     "@angular/platform-browser": "~12.0.4",
     "@angular/platform-browser-dynamic": "~12.0.4",
     "@angular/router": "~12.0.4",
+    "@aws-amplify/ui-angular": "^1.0.12",
+    "@okta/jwt-verifier": "^2.1.0",
+    "@types/express": "^4.17.12",
+    "aws-amplify": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "localforage": "^1.9.0",
+    "morgan": "^1.10.0",
     "rxjs": "~6.6.0",
+    "tsc": "^2.0.3",
     "tslib": "^2.1.0",
+    "typeorm": "^0.2.34",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
