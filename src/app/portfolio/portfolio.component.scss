@@ -15,7 +15,11 @@ br {
   flex: 1;
 }
 
-.just-clocks-span, .thoridal-span, .inventory-span, .frostbolt-span {
+.just-clocks-span,
+.thoridal-span,
+.inventory-span,
+.frostbolt-span,
+.review-span {
   position: relative;
   margin-top: 1em;
   margin-right: 4.3em;
@@ -26,7 +30,8 @@ br {
   margin-right: 5.1em;
 }
 
-.inventory-span {
+.inventory-span,
+.review-span {
   margin-top: -2.5em;
   margin-left: 15em;
   padding-bottom: 2%;
@@ -50,7 +55,12 @@ br {
   text-align: center;
 }
 
-#just-clocks-icon, #thoridal-icon, #inventory-icon, #frost-icon, #replica-icon {
+#just-clocks-icon,
+#thoridal-icon,
+#inventory-icon,
+#frost-icon,
+#replica-icon,
+#review-icon {
   padding-left: 1.6em;
   padding-top: 1em;
   float: left;
@@ -60,14 +70,24 @@ br {
   margin-left: -0.4em;
 }
 
-#just-clocks-arrow, #thoridal-arrow, #inventory-arrow, #frost-arrow, #replica-arrow {
+#reivew-icon {
+  margin-left: -0.4em;
+}
+
+#just-clocks-arrow,
+#thoridal-arrow,
+#inventory-arrow,
+#frost-arrow,
+#replica-arrow,
+#review-arrow {
   position: relative;
   margin-top: -1.75em;
   margin-right: 1.5em;
   float: right;
 }
 
-#inventory-arrow {
+#inventory-arrow,
+#review-arrow {
   margin-top: -2.9em;
 }
 
@@ -181,10 +201,80 @@ a:hover {
     display: none;
   }
 
-  #just-clocks-arrow {
+  #just-clocks-arrow,
+  #just-clocks-arrow,
+  #thoridal-arrow,
+  #inventory-arrow,
+  #frost-arrow,
+  #replica-arrow,
+  #review-arrow {
     position: relative;
     float: right;
     margin-top: -0.3%;
+  }
+
+  #frost-arrow {
+    margin-top: -0.3%;
+  }
+
+  #inventory-arrow {
+    margin-top: -2.3em;
+  }
+
+  #just-clocks-icon,
+  #thoridal-icon,
+  #inventory-icon,
+  #frost-icon,
+  #replica-icon,
+  #review-icon {
+    position: relative;
+    float: left;
+    padding-left: 1.6em;
+    margin-top: -1.2em;
+  }
+
+  #inventory-icon {
+    padding-left: 1.8em;
+  }
+
+  #replica-icon {
+    padding-left: 1.4em;
+  }
+
+  #review-icon {
+    padding-left: 1.4em;
+  }
+
+  .frostbolt-span {
+    position: relative;
+    float: left;
+    margin-top: -0.3%;
+    margin-left: 5em;
+  }
+
+  .thoridal-span {
+    position: relative;
+    float: left;
+    margin-top: -0.3%;
+    margin-left: 7.5em;
+  }
+
+  .inventory-span {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    margin-top: -0.3%;
+    margin-left: 4.5em;
+  }
+
+  .review-span {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    margin-top: -0.3%;
+    margin-left: 4.8em;
   }
 
   .just-clocks-span {
@@ -192,13 +282,11 @@ a:hover {
     float: left;
     margin-left: 10%;
     margin-top: -0.35%;
+    padding-left: 4em;
   }
 
-  #just-clocks-icon {
-    position: relative;
-    float: left;
-    padding-left: 1.6em;
-    margin-top: -1.2em;
+  .replica-span {
+    margin-left: 12%;
   }
 }
 
@@ -218,4 +306,10 @@ a:hover {
 #replica-desc {
   position: relative;
   margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    max-width: 400px;
+  }
 }

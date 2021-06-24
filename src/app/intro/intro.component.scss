@@ -11,9 +11,26 @@
   font-size: 50px;
 }
 
-.desc1 {
+.desc1,
+.desc2 {
   margin-bottom: -15px;
   margin-left: 15px;
   font-size: 22px;
   color: rgb(148, 148, 148);
+}
+
+@media screen and (max-width: 767px) {
+  .desc1 {
+    margin: 0;
+    padding-top: 4.8%;
+    padding-left: 23.5%;
+    padding-bottom: 0;
+    justify-content: center;
+    max-width: 600px;
+    font-size: 19px;
+  }
+
+  .desc2 {
+    display: none;
+  }
 }
