@@ -210,15 +210,20 @@ a:hover {
   #review-arrow {
     position: relative;
     float: right;
-    margin-top: -0.3%;
+    margin-top: -10%;
   }
 
-  #frost-arrow {
-    margin-top: -0.3%;
+  #inventory-arrow,
+  #review-arrow {
+    position: relative;
+    float: right;
+    margin-top: -2.8em;
   }
 
-  #inventory-arrow {
-    margin-top: -2.3em;
+  #replica-arrow {
+    position: relative;
+    float: right;
+    margin-top: -1.2%;
   }
 
   #just-clocks-icon,
@@ -242,20 +247,21 @@ a:hover {
   }
 
   #review-icon {
+    margin-top: -1.4em;
     padding-left: 1.4em;
   }
 
   .frostbolt-span {
     position: relative;
     float: left;
-    margin-top: -0.3%;
+    margin-top: -10%;
     margin-left: 5em;
   }
 
   .thoridal-span {
     position: relative;
     float: left;
-    margin-top: -0.3%;
+    margin-top: -10%;
     margin-left: 7.5em;
   }
 
@@ -264,8 +270,8 @@ a:hover {
     justify-content: center;
     position: relative;
     float: left;
-    margin-top: -0.3%;
-    margin-left: 4.5em;
+    margin-top: -15%;
+    margin-left: 5.3em;
   }
 
   .review-span {
@@ -273,20 +279,23 @@ a:hover {
     justify-content: center;
     position: relative;
     float: left;
-    margin-top: -0.3%;
-    margin-left: 4.8em;
+    margin-top: -14%;
+    margin-left: 5.4em;
   }
 
   .just-clocks-span {
     position: relative;
     float: left;
-    margin-left: 10%;
-    margin-top: -0.35%;
+    margin-left: 15.5%;
+    margin-top: -10%;
     padding-left: 4em;
   }
 
   .replica-span {
-    margin-left: 12%;
+    position: relative;
+    float: left;
+    margin-top: -1.5%;
+    margin-left: 8%;
   }
 }
 
@@ -310,6 +319,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .root {
-    max-width: 400px;
+    max-width: 284px;
   }
 }

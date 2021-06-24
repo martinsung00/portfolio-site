@@ -90,17 +90,26 @@ svg#clouds {
 
 @media screen and (max-width: 768px) {
   .root {
-    max-width: 768px;
+    max-width: 500px;
     justify-content: center;
     display: flex;
     overflow: hidden;
   }
 
   .footer {
-    max-width: 700px;
+    position: relative;
+    float: none;
+    display: block;
+    max-width: 200px;
+    text-align: center;
   }
 
   .footer a {
+    position: relative;
+    float: none;
+    display: block;
     align-items: center;
+    text-align: center;
+    margin-top: auto;
   }
 }

@@ -105,11 +105,11 @@ a:hover {
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
   .root {
-    max-width: 400px;
+    max-width: 270px;
   }
   .card-container > *:not(.circle-link),
   .terminal {
-    max-width: 400px;
+    max-width: 200px;
   }
 
   .card:not(.highlight-card) {
@@ -120,4 +120,10 @@ a:hover {
   .card.highlight-card span {
     margin-left: 72px;
   }
+
+
+.card.card-small {
+  height: 16px;
+  width: 101px;
+}
 }

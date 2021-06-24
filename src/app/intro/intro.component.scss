@@ -20,10 +20,25 @@
 }
 
 @media screen and (max-width: 767px) {
+  .career-title {
+    position: relative;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-left: 1.8em;
+    font-size: 29px;
+  }
+
+  .root {
+    max-width: 600px;
+  }
+
   .desc1 {
     margin: 0;
+    width: 280px;
     padding-top: 4.8%;
-    padding-left: 23.5%;
+    padding-left: 14.25%;
     padding-bottom: 0;
     justify-content: center;
     max-width: 600px;
